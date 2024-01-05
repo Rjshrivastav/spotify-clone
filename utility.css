@@ -1,0 +1,52 @@
+.border{
+    border: 2px solid red;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-content{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+/* Set the default scrollbar styles */
+::-webkit-scrollbar {
+    width: 12px; /* Adjust the width as needed */
+  }
+  
+  /* ::-webkit-scrollbar-thumb {
+    background-color: #333; 
+    border-radius: 6px; 
+  } */
+  
+  /* Set the scrollbar to be transparent by default */
+  .lib-middle, .right {
+    scrollbar-color: transparent; /* Firefox scrollbar color property */
+  }
+  
+  /* Set the scrollbar track to be transparent */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+ /* Set the scrollbar thumb color on hover */
+ .lib-middle:hover::-webkit-scrollbar-thumb,
+ .right:hover::-webkit-scrollbar-thumb {
+    background-color: #333; /* Dark color for the scrollbar thumb on hover */
+  }
+  
+  /* Show the scrollbar on hover */
+  .lib-middle:hover::-webkit-scrollbar {
+    width: 12px; /* Adjust the width as needed */
+  }
+  
+  /* Show the scrollbar track on hover */
+  .lib-middle:hover::-webkit-scrollbar-track {
+    background: transparent; /* Adjust the transparency as needed */
+  }
+  
